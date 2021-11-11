@@ -5,7 +5,7 @@ export default function Buscador(){
     return(
         <View>
             <Text>
-                Hola
+                Hola sof
             </Text>
         </View>
 
