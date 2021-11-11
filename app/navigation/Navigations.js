@@ -1,17 +1,38 @@
 import React from "react"
 import {NavigationContainer} from "@react-navigation/native"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
-import Usuario from "../screens/Usuario"
+import { Icon } from 'react-native-elements'
+
+
+import UsuarioStack from "./UsuarioStack"
+import BuscadorStak from "./BuscadorStack"
+import HomeStack from "./HomeStack"
+import PlayasStack from "./PlayasStack"
 
 const Tab = createBottomTabNavigator()
 
 export default function Navigations(){
     return(
         <NavigationContainer>
-            <Tab.Navigator>
-                <Tab.Screen name="user" component={Usuario}>
+            <Tab.Navigator
+            initialRouteName="home"
+            tabBarOptions={{
+                inactiveTintColor:"#646464",
+                activeTintColor:"#00a668",
 
-                </Tab.Screen>
+            }}
+            screenOptions={({route}) =>({
+                tabBarIcon: ({color}) => screenOptions(route,color)
+            })}
+            
+            
+            >
+                <Tab.Screen name="home" component={HomeStack}/>
+                <Tab.Screen name="user" component={UsuarioStack}/>
+                <Tab.Screen name="playas" component={PlayasStack}/>
+                <Tab.Screen name="buscador" component={BuscadorStak}/>
+
+               
             </Tab.Navigator>
 
 
@@ -19,4 +40,31 @@ export default function Navigations(){
 
 
     )
+}
+
+
+function screenOptions(route,color){
+let iconName;
+
+switch (route.name) {
+    case "home":
+    iconName="home" 
+         break;
+     case "user":
+      iconName= "person"
+          break;
+    case "playas":
+      iconName="arrow-drop-up"
+          break;
+    case "buscador":
+      iconName= "search"
+          break;
+
+    default:
+        break;
+} 
+ return(
+    <Icon type="material-comunity" name={iconName} size={20} color={color}/>
+)
+
 }
