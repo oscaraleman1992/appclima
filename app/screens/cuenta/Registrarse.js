@@ -45,7 +45,7 @@ const styles=StyleSheet.create({
         fontSize:20
     },
     boton:{
-        backgroundColor:"rgb(0,210,146)",
+        backgroundColor:"rgb(0,0,146)",
         paddingTop:15,
         paddingBottom:15,
     },
