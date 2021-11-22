@@ -4,6 +4,10 @@ import Playas from "../screens/Playas"
 
 const Stack = createStackNavigator()
 
+//const [busqueda, guardarBusqueda] = useState({
+    //ciudad: '',
+    //pais: ''
+//})
 export default function PlayasStack(){
     return(
         <Stack.Navigator>
@@ -11,11 +15,13 @@ export default function PlayasStack(){
                 name="Playas"
                 component={Playas}
                 options={{title: "Playas"}}/>
-           
-
-
-
+        
         </Stack.Navigator>
+       
     )
 
 }
+
+//<Formulario
+//busqueda={busqueda}
+//guardarBusqueda={guardarBusqueda}></Formulario>
