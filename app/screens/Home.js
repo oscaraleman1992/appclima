@@ -1,13 +1,27 @@
 import React from "react"
-import {View,Text} from "react-native"
+import {View,Text,StyleSheet,TextInput,TouchableHighlight, ScrollView} from "react-native"
+import { useNavigation } from "@react-navigation/core"
 
 export default function Home(){
     return(
-        <View>
-            <Text>
-                Hola
+        <View style={styles.contenedor}>
+            <Text styles={styles.text}>
+                pero
             </Text>
         </View>
-
     )
 }
+
+const styles=StyleSheet.create({
+    contenedor:{
+        background:'black',
+        minHeight:'100%'
+    },
+
+    text:{
+        color:'pink'
+    }
+    
+})
+
+

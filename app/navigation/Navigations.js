@@ -54,7 +54,7 @@ switch (route.name) {
       iconName= "person"
           break;
     case "playas":
-      iconName="arrow-drop-up"
+      iconName="cloud"
           break;
     case "buscador":
       iconName= "search"
