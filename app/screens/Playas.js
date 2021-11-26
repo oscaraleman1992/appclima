@@ -11,7 +11,7 @@ export default function Playas(){
     const animacionEntrada = () => {
         Animated.spring( animacionboton, {
             toValue: 0.9,
-            //useNativeDriver: true,
+            useNativeDriver: true,
         }).start();
     }
 
@@ -19,8 +19,8 @@ export default function Playas(){
         Animated.spring ( animacionboton, {
             toValue: 1,
             friction:4,
-            tension: 30
-            //useNativeDriver: true,
+            tension: 30,
+            useNativeDriver: true,
         }).start();
     }
     const estiloAnimacion = {

@@ -5,9 +5,11 @@ import { useNavigation } from "@react-navigation/core"
 export default function Home(){
     return(
         <View style={styles.contenedor}>
+        
             <Text styles={styles.text}>
-                pero
+               AppClima 
             </Text>
+           
         </View>
     )
 }
@@ -19,7 +21,8 @@ const styles=StyleSheet.create({
     },
 
     text:{
-        color:'pink'
+        color:'blue',
+        fontSize: 20,
     }
     
 })
