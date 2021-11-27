@@ -10,7 +10,7 @@ export default function UsuarioStack(){
             <Stack.Screen
                 name="usuarios"
                 component={Usuario}
-                options={{title: "USUARIOS"}}/>
+                options={{title: "Usuarios:"}}/>
              <Stack.Screen
                 name="login"
                 component={Login}

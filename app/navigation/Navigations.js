@@ -28,8 +28,8 @@ export default function Navigations(){
             
             >
                 <Tab.Screen name="home" component={HomeStack}/>
-                <Tab.Screen name="user" component={UsuarioStack}/>
                 <Tab.Screen name="playas" component={PlayasStack}/>
+                <Tab.Screen name="user" component={UsuarioStack}/>
                 <Tab.Screen name="buscador" component={BuscadorStak}/>
 
                

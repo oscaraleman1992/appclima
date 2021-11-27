@@ -7,10 +7,10 @@ const Stack = createStackNavigator()
 export default function HomeStack(){
     return(
         <Stack.Navigator>
-            <Stack.Screen
+            <Stack.Screen 
                 name="Home"
                 component={Home}
-                options={{title: "Bienvenido"}}/>
+                options={{title: "AppClima"}}/>
            
 
 

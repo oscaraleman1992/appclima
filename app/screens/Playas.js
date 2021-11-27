@@ -73,8 +73,11 @@ const styles = StyleSheet.create({
     },
     btnBuscar:{
             marginTop:50,
+            width:200,
+            marginLeft:110,
             backgroundColor: '#2CBAEF',
             padding: 10,
+            alignItems:'center',
             justifyContent: 'center'
 
     },
