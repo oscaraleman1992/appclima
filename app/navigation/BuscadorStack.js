@@ -10,7 +10,7 @@ export default function BuscadorStak(){
             <Stack.Screen
                 name="Buscador"
                 component={Buscador}
-                options={{title: ""}}/>
+                options={{title: "Donde encontrarnos"}}/>
            
         </Stack.Navigator>
     )

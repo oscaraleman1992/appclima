@@ -14,7 +14,7 @@ export default function PlayasStack(){
             <Stack.Screen
                 name="Playas"
                 component={Playas}
-                options={{title: "Playas"}}/>
+                options={{title: "Clima hoy"}}/>
         
         </Stack.Navigator>
        
