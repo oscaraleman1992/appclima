@@ -8,9 +8,10 @@ export default function UsuarioStack(){
     return(
         <Stack.Navigator>
             <Stack.Screen
+                
                 name="usuarios"
                 component={Usuario}
-                options={{title: "Usuarios:"}}/>
+                options={{title: "Registrate para conocer el clima:"}}/>
              <Stack.Screen
                 name="login"
                 component={Login}

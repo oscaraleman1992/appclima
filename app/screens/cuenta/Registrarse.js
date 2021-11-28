@@ -17,7 +17,16 @@ export default function Registrarse(){
                 containerStyle={styles.btnContainer}
                 onPress={()=>navigation.navigate("login")}>
                         <Text style={styles.enviar}>
-                            ENVIAR
+                            Ingresar
+                        </Text>
+            </TouchableHighlight>
+            <TouchableHighlight 
+                style={styles.btn}
+                buttonStyle={styles.button}
+                containerStyle={styles.btnContainer}
+                onPress={()=>navigation.navigate("login")}>
+                        <Text style={styles.enviar}>
+                            Registrarse
                         </Text>
             </TouchableHighlight>
             </View>
@@ -48,6 +57,13 @@ const styles=StyleSheet.create({
         backgroundColor:"rgb(0,0,146)",
         paddingTop:15,
         paddingBottom:15,
+    },
+    btn:{
+        backgroundColor:"rgb(255, 87, 51)",
+        marginTop:10,
+        paddingTop:15,
+        paddingBottom:15,
+        
     },
     button:{
         backgroundColor:"#00a680"
