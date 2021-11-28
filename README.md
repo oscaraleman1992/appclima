@@ -15,10 +15,12 @@ https://www.figma.com/file/w9t2jFhKd3bDTkbcdGEnbP/App_clima?node-id=0%3A1
 
 Quienes Somos(Integrantes grupo #60): 
 
-Oscar Alemán:
+Oscar Alemán
 
-Nadia Mortarino: FrontDeveloper comencé en 2019 autodidacta, yo vengo de otra rama la Geolgía, y por una u otra cuestión decidí cambiarme de rubro. Gracias a los cursos de codo a codo tuve la oportunidad de cursar fullstack PHP y Testing ahí aprendí a querer PHP y JS lenguajes donde me siento cómoda, en noviembre tuve la posibilidad de encontrar empleo como Tester QA después de mucha búsqueda y pelearla, doy gracias a la comunidad IT nueva para mí. Siempre trato de ponerle mucho amor y esfuerzo a este nuevo mundo ❤️.
+Nadia Mortarino
 
-Sofia Serrano:
+Sofia Serrano
+
+Pensamos está app para encontrar el clima en la playa, si sos usuario acceder más fácil logueandose, y si no poder registrarse para recibir el clima al día, pero la app se hizo difícil ninguno maneja React, y la parte de enlazar con la API no logramos llevarlo a cabo, de todas maneras queremos entregar y cumplir. 
 
 
